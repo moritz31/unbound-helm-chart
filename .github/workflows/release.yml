@@ -28,4 +28,4 @@ jobs:
         with:
           charts_repo_url: https://github.com/moritz31/unbound-helm-chart
         env:
-          CR_TOKEN: "${{ secrets.CR_TOKEN }}"
+          CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
