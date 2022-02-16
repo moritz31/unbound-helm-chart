@@ -8,17 +8,17 @@ image:
   repository: klutchell/unbound
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.13.1"
+  tag: "1.15.0"
 
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
 localRecords:
-- name: "fake3.host.net"
-  ip: "10.12.10.10"
-- name: "fake4.host.net"
-  ip: "10.13.10.10"
+# - name: "fake3.host.net"
+#   ip: "10.12.10.10"
+# - name: "fake4.host.net"
+#   ip: "10.13.10.10"
 
 serviceAccount:
   # Specifies whether a service account should be created
