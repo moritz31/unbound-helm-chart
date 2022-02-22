@@ -2,7 +2,7 @@ apiVersion: v2
 name: unbound
 description: A Helm chart for deploying Unbound
 type: application
-version: 1.15.2
+version: 1.15.3
 appVersion: 1.15.0
 maintainers:
   - name: morit31
