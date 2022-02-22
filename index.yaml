@@ -3,15 +3,15 @@ entries:
   unbound:
   - apiVersion: v2
     appVersion: 1.15.0
-    created: "2022-02-16T13:51:55.79987673Z"
+    created: "2022-02-22T13:36:49.421278323Z"
     description: A Helm chart for deploying Unbound
-    digest: ac9b8a463fd561f79fb6b4160059c16bca0cdef835d6a6363b482377add82218
+    digest: 272f7d4a72aafe512a48e5e0fe436d1a2c49c2b6b781ca711763c9d16c8de43a
     maintainers:
     - email: 3672823+moritz31@users.noreply.github.com
       name: morit31
     name: unbound
     type: application
     urls:
-    - https://github.com/moritz31/unbound-helm-chart/releases/download/unbound-1.15.1/unbound-1.15.1.tgz
-    version: 1.15.1
-generated: "2022-02-16T13:51:55.79988343Z"
+    - https://github.com/moritz31/unbound-helm-chart/releases/download/unbound-1.15.2/unbound-1.15.2.tgz
+    version: 1.15.2
+generated: "2022-02-22T13:36:49.421283824Z"
