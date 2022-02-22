@@ -35,10 +35,10 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
           - name: "dns-udp"
-            containerPort: 5053
+            containerPort: 53
             protocol: "UDP"
           - name: "dns-tcp"
-            containerPort: 5053
+            containerPort: 53
             protocol: "TCP"
           volumeMounts:
           - name: "unbound-conf"
@@ -46,12 +46,12 @@ spec:
             readOnly: true
           readinessProbe:
             tcpSocket:
-              port: 5053
+              port: 53
             initialDelaySeconds: 5
             periodSeconds: 10
           livenessProbe:
             tcpSocket:
-              port: 5053
+              port: 53
             initialDelaySeconds: 15
             periodSeconds: 20
           resources:
